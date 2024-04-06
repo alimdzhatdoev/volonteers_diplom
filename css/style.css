@@ -437,16 +437,3 @@ swiper-slide img {
 .projects_item__left___desc {
     font-size: 16px;
 }
-
-.tab1,
-.tab2,
-.tab3,
-.tab4,
-.tab5,
-.tab6 {
-    display: none;
-}
-
-.tab1{
-    display: flex;
-}
