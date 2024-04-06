@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Волонтеры</title>
+    <title>Волонтёрское движение КЧР</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -12,20 +12,117 @@
 <body>
     <main>
         <div class="header">
-            <div class="header_logo">Волонтеры КЧР</div>
+            <div class="header_logo">Волонтёрское движение КЧР</div>
             <div class="header_title">Главная</div>
             <div class="header_profile">
                 <div class="header_profile__left">
                     <div class="header_profile__left___img"></div>
                 </div>
                 <div class="header_profile__right">
-                    <div class="header_profile__right___name">Алим Джатдоев</div>
+                    <div class="header_profile__right___name">Мадина Чомаева</div>
                     <div class="header_profile__right___email">test@gmail.com</div>
                 </div>
             </div>
         </div>
 
-        <div class="infoBlock">Content</div>
+        <div class="infoBlock">
+            <div class="infoBlock__mainSlider">
+                <swiper-container class="mySwiper" navigation="true" loop="true" autoplay-delay="5000"
+                    autoplay-disable-on-interaction="false">
+                    <swiper-slide>
+                        <img src="refs/new1.jpg" alt="">
+                        <div class="slideText">
+                            <a href="#" class="slideText_title">Название проекта 1</a>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="refs/new2.jpg" alt="">
+                        <div class="slideText">
+                            <a href="#" class="slideText_title">Название проекта 2</a>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="refs/new3.jpg" alt="">
+                        <div class="slideText">
+                            <a href="#" class="slideText_title">Название проекта 3</a>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="refs/new4.jpg" alt="">
+                        <div class="slideText">
+                            <a href="#" class="slideText_title">Название проекта 4</a>
+                        </div>
+                    </swiper-slide>
+                </swiper-container>
+            </div>
+
+            <div class="banner">
+                <div class="banner_info">
+                    <div class="banner_info__left">
+                        <div class="banner_info__left___title">Стань волонтером</div>
+                        <div class="banner_info__left___subDesc">Регистрация даёт расширенные возможности участникам
+                        </div>
+                        <div class="banner_info__left___desc">Вы сможете принимать участие в мероприятиях и
+                            проектах, создавать собственную историю успеха, демонстрировать свои достижения,
+                            развитие компетенций и многое другое</div>
+                        <a href="#" class="banner_info__left___button">Зарегистрироваться</a>
+                    </div>
+                    <div class="banner_info__right">
+                        <img src="refs/bannerImg.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="title">Новости</div>
+
+            <div class="news">
+                <a href="#" class="news_item">
+                    <div class="news_item__img">
+                        <img src="refs/new1.jpg" alt="">
+                    </div>
+                    <div class="news_item__bottom">
+                        <div class="news_item__bottom___date">06.04.2024</div>
+                        <div class="news_item__bottom___title">Росмолодёжь.Бизнес представит проекты по развитию
+                            молодёжного предпринимательства на 2024 год в Доме молодёжи</div>
+                    </div>
+                </a>
+                <a href="#" class="news_item">
+                    <div class="news_item__img">
+                        <img src="refs/new2.jpg" alt="">
+                    </div>
+                    <div class="news_item__bottom">
+                        <div class="news_item__bottom___date">05.04.2024</div>
+                        <div class="news_item__bottom___title">Всероссийский форум волонтёров-медиков запустили на
+                            выставке “Россия”</div>
+                    </div>
+                </a>
+                <a href="#" class="news_item">
+                    <div class="news_item__img">
+                        <img src="refs/new3.jpg" alt="">
+                    </div>
+                    <div class="news_item__bottom">
+                        <div class="news_item__bottom___date">05.04.2024</div>
+                        <div class="news_item__bottom___title">Нацпроект «Молодёжь и дети», наследие ВФМ-2024,
+                            международные молодёжные клубы: члены Правительства РФ выступили перед Владимиром Путиным с
+                            докладами о работе с молодым поколением</div>
+                    </div>
+                </a>
+                <a href="#" class="news_item">
+                    <div class="news_item__img">
+                        <img src="refs/new4.jpg" alt="">
+                    </div>
+                    <div class="news_item__bottom">
+                        <div class="news_item__bottom___date">04.04.2024</div>
+                        <div class="news_item__bottom___title">Более 4 700 заявок подали тюменцы на XXIX Областной
+                            фестиваль «Студенческая весна»</div>
+                    </div>
+                </a>
+            </div>
+
+            <a href="#" class="showMore">Показать еще</a>
+
+            <div class="title">Проекты</div>
+        </div>
 
         <footer>
             <div class="footerLeft">
@@ -64,6 +161,7 @@
     </main>
 </body>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 <script src="js/main.js"></script>
 
 </html>
